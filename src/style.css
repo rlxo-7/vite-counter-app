@@ -1,0 +1,54 @@
+/* src/style.css */
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+}
+
+.counter-container {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#count {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #1f2937;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4f46e5;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+#reset-btn {
+  background-color: #6b7280;
+}
+
+#reset-btn:hover {
+  background-color: #4b5563;
+}
